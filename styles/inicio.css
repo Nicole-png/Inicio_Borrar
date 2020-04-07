@@ -1,0 +1,57 @@
+/*body{
+    background-image: url("https://www.muycomputerpro.com/wp-content/uploads/2018/06/GitHub.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+body{
+    background-color: var(--color_principal);
+}
+.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    /*border: solid 1px var(--color_letter_secundario);*/
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    "header header header"
+    "posicion1 posicion2 posicion3";
+}
+.header{
+    color:#000;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: header;
+}
+.posicion1{
+    grid-area: posicion1;
+}
+.posicion2{
+    grid-area: posicion2;
+}
+.posicion3{
+    grid-area: posicion3;
+}
+article h3{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--color_letter_secundario);
+}
+
+article p{
+    justify-content: center;
+    text-align: center;
+    /*border: solid 2px red;*/
+    padding: 20px 50px;
+}
+article a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

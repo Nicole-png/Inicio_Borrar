@@ -59,3 +59,10 @@ article a{
     justify-content: center;
     align-items: center;
 }
+article button{
+    margin: 20px auto;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
